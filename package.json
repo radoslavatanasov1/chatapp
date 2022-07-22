@@ -1,0 +1,25 @@
+{
+  "homepage": "https://radoslavatanasov1.github.io/chatapp",
+  "name": "encrypted-chat-tutorial",
+  "version": "1.0.0",
+  "node": "8.1.4",
+  "license": "UNLICENSED",
+  "author": "Anton",
+  "description": "End-to-end RSA-4096 encrypted chat application.",
+  "main": "app.js",
+  "engines": {
+    "node": ">=7.6"
+  },
+  "scripts": {
+    "dev": "node-dev app.js",
+    "start": "node app.js",
+    "predeploy": "node app.js",
+    "deploy": "gh-pages -d build"
+  },
+  "dependencies": {
+    "express": "4.15.3",
+    "gh-pages": "^4.0.0",
+    "node-dev": "^7.4.3",
+    "socket.io": "2.0.3"
+  }
+}
